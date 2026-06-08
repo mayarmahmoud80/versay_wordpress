@@ -1,0 +1,75 @@
+</main>
+
+    <footer class="footer-modern footer-area-inner-page d-block mt-0" style="background-color: var(--bg-1);">
+      <div class="container-fluid px-5 large">
+        <div class="footer-widget-wrapper-box">
+          <div class="footer-widget-wrapper d-block">
+            <div class="footer-widget-box contact-info row d-flex ">
+             
+              <div class="col-12 col-md-3 px-2 mb-5">
+                <h2 class="title">عن فرساي</h2>
+                <ul class="footer-nav-list row d-flex gap-2">
+                  <li class="col-10 p-0" style="font-size: 14px!important;">
+                    <span>نؤمن أن البيت أكثر من مجرد مساحة للسكن، لذلك نطوّر مشاريع سكنية بتصاميم مدروسة وجودة عالية، لنقدم تجربة سكن تجمع بين الراحة، الخصوصية، والموقع الاستراتيجي</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-12 col-md-3 px-2 mb-5">
+                <h2 class="title">للتواصل</h2>
+                <ul class="footer-nav-list row d-flex gap-3">
+                  <li class="col-12 p-0"><a href="tel:920031969"><i class="fa fa-phone"></i> <span>920031969</span></a></li>
+                  <li class="col-12 p-0"><a href="mailto:info@versaisa.net"><i class="fa fa-envelope"></i> <span>sales@versaisa.net</span></a></li>
+                  <li class="col-12 p-0"><a href="mailto:sales@versaisa.net"><i class="fa fa-envelope"></i> <span>info@versaisa.net</span></a></li>
+                  <li class="col-12 p-0"><i class="fa fa-map-marker-alt"></i> <span>Riyadh, Saudi Arabia</span></li>
+                </ul>
+              </div>
+
+              <div class="col-12 col-md-3 px-2 mb-5">
+                <h2 class="title">خريطة الموقع</h2>
+                <ul class="footer-nav-list row d-flex gap-3">
+                  <li class="col-12 p-0"><a href="<?php echo home_url('/'); ?>"><span>الصفحة الرئيسية</span></a></li>
+                  <li class="col-12 p-0"><a href="<?php echo home_url('/about'); ?>"><span>نبذة عن فرساي</span></a></li>
+                  <li class="col-12 p-0"><a href="<?php echo home_url('/portfolio'); ?>"><span>مشاريعنا</span></a></li>
+                </ul>
+              </div>
+
+              <div class="col-12 col-md-3 px-2 footer_list_social mb-5">
+                <ul class="footer-nav-list d-flex justify-content-center gap-3 social-icons align-items-center flex-row justify-space-between">
+                  <li class="px-3"><a href="https://x.com/Versailles_ap"><i class="fa-brands fa-x-twitter"></i></a></li>
+                  <li class="px-3"><a href="https://www.tiktok.com/@versailles_ap?_r=1&_t=ZS-964vkGgapmL"><i class="fa-brands fa-tiktok"></i></a></li>
+                  <li class="px-3"><a href="https://www.instagram.com/versailles_ap?igsh=MWI2ZWlybm5lNzl2cA=="><i class="fa-brands fa-instagram"></i></a></li>
+                  <li class="px-3"><a href="https://snapchat.com/t/SYfq7nii"><i class="fa-brands fa-snapchat"></i></a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="copyright-area row d-flex justify-content-between py-3">
+              <div class="px-5 col-md-3 footer_logo">
+                <a href="<?php echo home_url('/'); ?>">
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/projects_img/White_2.PNG" loading="lazy" width="60" height="60" class="normal-logo" alt="Site Logo">
+                </a>
+              </div>
+              <div class="col-12 col-md-6 my-2 text-center">
+                <div class="copyright-text">
+                  <p class="text font-16" style="color: #fff;"><span>© <?php echo date('Y'); ?> versaisa. جميع الحقوق محفوظة.</span></p>
+                </div>
+              </div>
+              <div class="col-12 col-md-3 text-center">
+                <p class="font-16" style="color: #fff;"><a href="<?php echo home_url('/privacy-policy'); ?>">سياسة الخصوصية</a></p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </div> </div> <?php wp_footer(); ?>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    AOS.init();
+  });
+</script>
+</body>
+</html>
